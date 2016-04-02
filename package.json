@@ -31,5 +31,14 @@
   },
   "babel": {
     "presets": ["es2015"]
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+      }
+    }
   }
 }
